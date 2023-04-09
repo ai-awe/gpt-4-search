@@ -194,3 +194,9 @@ Cons:
 2023-04-08 00:21:12,977 INFO:cost: $0.0, total_tokens: 0
 2023-04-08 00:21:12,978 INFO:no function call, so it is the answer
 ````
+
+
+## 撤销对某个文件的提交
+git log
+git reset commit-id filenam
+git checkout filename
